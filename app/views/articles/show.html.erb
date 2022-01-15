@@ -1,0 +1,11 @@
+<head>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<h1><%= @article[:title] %></h1>
+
+<p> <%= @article[:content] %> </p>
+
+<%= link_to "edit article", edit_article_path
+
+<%= link_to 'Back to articles', url_for(:articles) %>
