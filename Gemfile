@@ -29,7 +29,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'faker'
 
 # FONT-AWESOME-RAILS
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
 
 
 group :development, :test do
